@@ -1,5 +1,5 @@
 1 Step - You can't go to any other route before you actually sign up for a site.    
-2 Steps - You must follow the rules and register to be able to log in because the API is protected and make sure you have done confirm through the mail you registered with
+2 Step - You must follow the rules and register to be able to log in because the API is protected and make sure you have done confirm through the mail you registered with
 ![image](https://github.com/Mohamed-Adel0/Instagram/assets/128996656/6891630c-def6-46d8-8244-d99a4993341d)
 3 Step - You must log in to go to the other page.
 ![image](https://github.com/Mohamed-Adel0/Instagram/assets/128996656/c81843d9-5e26-4a0a-a61a-d158f4d7a256)
@@ -19,6 +19,6 @@ You will press create profile to create your own profile and then you can do any
 ![image](https://github.com/Mohamed-Adel0/Instagram/assets/128996656/151e82bc-cf05-4956-b908-fefac3f05ca4)
 9 step which is the most important step, you can talk with your friend Like That
 ![image](https://github.com/Mohamed-Adel0/Instagram/assets/128996656/1e44d679-c41c-4f33-ac40-f40097645796)
-And in something I've been hiding to you're, the website Responsive with any size screen ah wlahy you can try it by urself if you not untrust me 😂🤣
+And in something I've been hiding to you're, the website Responsive with any size screen ah wlahy you can try it by urself if you not untrust me 😂🤣  
 Link Demo
 https://instagram97.netlify.app/

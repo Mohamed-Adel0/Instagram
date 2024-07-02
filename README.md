@@ -1,70 +1,24 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1 Step - You can't go to any other route before you actually sign up for a site.
+2 Steps - You must follow the rules and register to be able to log in because the API is protected and make sure you have done confirm through the mail you registered with
+![image](https://github.com/Mohamed-Adel0/Instagram/assets/128996656/6891630c-def6-46d8-8244-d99a4993341d)
+3 Step - You must log in to go to the other page.
+![image](https://github.com/Mohamed-Adel0/Instagram/assets/128996656/c81843d9-5e26-4a0a-a61a-d158f4d7a256)
+4 Step - After you successfully complete the registration you will go to the homepage like that
+![image](https://github.com/Mohamed-Adel0/Instagram/assets/128996656/2a25373e-5bd7-452a-b79d-6b61206b158f)
+5 step - you will go to your profile to activate profile like that
+![image](https://github.com/Mohamed-Adel0/Instagram/assets/128996656/829a2143-0f94-4c65-bf1a-d59e61272f7b)
+You will press create profile to create your own profile and then you can do anything like conversation with your friends and share your daily routine with your friends Like That
+![image](https://github.com/Mohamed-Adel0/Instagram/assets/128996656/3c4c01ca-8da4-40ec-a062-74ce14544819)
+6 step - You can create a post and share what's happening with you Like that
+![image](https://github.com/Mohamed-Adel0/Instagram/assets/128996656/0a3f7296-8f43-4922-93bd-54527ab7341b)
+![image](https://github.com/Mohamed-Adel0/Instagram/assets/128996656/2c257922-624c-4d96-9c42-6d86cf72310a)
+![image](https://github.com/Mohamed-Adel0/Instagram/assets/128996656/eec530d4-8a24-493d-bc54-dbb490d5ea22)
+7 step - You can edit your profile Like That
+![image](https://github.com/Mohamed-Adel0/Instagram/assets/128996656/32c6252b-8253-48e9-9ff5-90d69ba18dbf)
+8 step Dark/Light Mode is available
+![image](https://github.com/Mohamed-Adel0/Instagram/assets/128996656/151e82bc-cf05-4956-b908-fefac3f05ca4)
+9 step which is the most important step, you can talk with your friend Like That
+![image](https://github.com/Mohamed-Adel0/Instagram/assets/128996656/1e44d679-c41c-4f33-ac40-f40097645796)
+And in something I've been hiding to you're, the website Responsive with any size screen ah wlahy you can try it by urself if you not untrust me 😂🤣
+Link Demo
+https://instagram97.netlify.app/

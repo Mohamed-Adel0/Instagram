@@ -1,0 +1,1732 @@
+:root {
+  --pink: #e83e8c;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --black: #000000;
+  --Sakhrafa: "Playball", cursive;
+  --rulles: "Lora", serif;
+}
+// Here Style for Page Home To Divide the page into three Parts
+.parent-home {
+  background-color: var(--black);
+  width: 100%;
+  height: 100vh;
+  min-height: auto;
+  .container-home {
+    width: 100%;
+    height: 100%;
+    min-height: auto;
+    display: flex;
+    flex-direction: row;
+    .menu {
+      width: 18%;
+      height: 100%;
+    }
+    .news {
+      width: 54%;
+      height: 100%;
+      .posts-news {
+        width: 100%;
+        height: 715px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding: 5px 0;
+        .card-posts {
+          width: 480px;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+          border-bottom: 1px solid #ffffff17;
+          .info-persons {
+            width: 100%;
+            height: 8%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .pictures {
+              width: auto;
+              height: 100%;
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              flex-direction: row;
+              gap: 10px;
+              h3 {
+                font-size: 11px;
+                font-family: var(--rulles);
+                font-family: 100;
+              }
+              img {
+                width: 45px;
+                height: 40px;
+                border-radius: 50%;
+              }
+              p {
+                font-family: sans-serif;
+                font-family: 100;
+                font-size: 13px;
+                color: #ffffff8a;
+              }
+            }
+            button {
+              background-color: transparent;
+              color: #fff;
+              border: none;
+              font-size: 22px;
+              cursor: pointer;
+            }
+          }
+          .bg-images {
+            border: 1px solid #ffffff2c;
+            width: 100%;
+            height: 75%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            img {
+              width: 99.5%;
+              height: 99.5%;
+
+              object-fit: cover;
+              object-position: center;
+              border-radius: 3px;
+              cursor: pointer;
+            }
+          }
+          .home-posts {
+            width: 100%;
+            height: 14%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            .icons {
+              width: 100%;
+              height: auto;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              flex-direction: row;
+              padding: 5px 0;
+              .likes {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 15px;
+                width: 30%;
+              }
+              button {
+                background-color: transparent;
+                border: none;
+                color: #fff;
+                font-size: 25px;
+                cursor: pointer;
+                font-weight: 100;
+                transition: 0.2s;
+              }
+              & button:hover {
+                color: #a8a8a8;
+                transition: 0.2s;
+              }
+            }
+            .paragaph-posts {
+              width: 100%;
+              height: auto;
+              display: flex;
+              justify-content: center;
+              align-items: flex-start;
+              gap: 12px;
+              flex-direction: column;
+              p {
+                font-family: sans-serif;
+                font-weight: 100;
+                font-size: 13px;
+                padding: 0;
+                margin: 0;
+              }
+              .text {
+                display: flex;
+                gap: 8px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                h3 {
+                  font-family: var(--rulles);
+                  font-size: 13px;
+                  font-weight: 100;
+                  color: #fff;
+                }
+                p {
+                  font-family: sans-serif;
+                  font-weight: 100;
+                  font-size: 12px;
+                }
+              }
+              form {
+                width: 100%;
+                height: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                input {
+                  width: 90%;
+                  background-color: transparent;
+                  color: #fff;
+                  border: none;
+                  outline: none;
+                }
+                button {
+                  width: 65px;
+                  background-color: transparent;
+                  color: #fff;
+                  border: none;
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .friends {
+      width: 28%;
+      height: 100%;
+    }
+  }
+}
+// Here End Style for Page Home
+// ------------------------------------------------------------------------------------------------------------------------------------------
+// Here For Style NavBar & SharePosts
+.parent-navbar {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--black);
+  .container-navbar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 82%;
+    border-right: 0.5px solid #ffffff3a;
+    .card {
+      width: 100%;
+      height: 100%;
+      padding-left: 25px;
+      transition: 0.6s !important;
+      .logo {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-left: 10px;
+        transition: 0.6s;
+        a {
+          font-family: "Playball", cursive;
+          font-size: 35px;
+          transition: 0.6s;
+        }
+      }
+      ul {
+        height: 85%;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 5px;
+        padding-bottom: 15px;
+        transition: 0.6s;
+        .dev-LogOut {
+          width: 100%;
+          height: 9%;
+          position: relative;
+          .fixed-LogOut {
+            position: fixed;
+            bottom: 11%;
+            left: 2%;
+            right: 80%;
+            top: 130%;
+            background-color: #262626;
+            border-radius: 15px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 10px 0;
+            transition: 0.6s;
+            overflow: hidden;
+            opacity: 0;
+            flex-direction: column;
+            button {
+              background-color: transparent;
+              border: none;
+              color: #fff;
+              font-family: sans-serif;
+              font-size: 14px;
+              text-align: start;
+              padding: 0 15px;
+              cursor: pointer;
+              width: 90%;
+              height: 15%;
+              transition: 0.3s;
+              border-radius: 10px;
+            }
+            & button:hover {
+              background-color: #3c3c3c;
+              transition: 0.3s;
+            }
+          }
+          li {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        li {
+          width: 100%;
+          height: 9%;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          flex-direction: row;
+          button {
+            background-color: transparent;
+            color: var(--light);
+            border: none;
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+          }
+          a {
+            font-family: var(--rulles);
+            font-size: 18px;
+            font-weight: 100;
+            width: 100%;
+            overflow: hidden;
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 20px;
+            border-radius: 10px;
+            padding: 0 10px;
+          }
+          & a:hover {
+            background-color: #1a1a1a;
+          }
+        }
+        .Pimage {
+          width: 30px;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          overflow: hidden;
+          img {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+.parent-Menu {
+  width: 90px;
+  height: 100vh;
+  background-color: var(--black);
+  .container-Menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 82%;
+    width: 90px !important;
+    border-right: 0.5px solid #ffffff3a;
+    .card {
+      width: 100%;
+      height: 100%;
+      padding-left: 25px;
+      transition: 0.6s !important;
+      .logo {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-left: 10px;
+        transition: 0.6s;
+        a {
+          font-family: "Playball", cursive;
+          font-size: 35px;
+          transition: 0.6s;
+        }
+      }
+      ul {
+        height: 85%;
+        width: 100% !important;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // background-color: gold;
+        flex-direction: column;
+        gap: 5px;
+        padding-bottom: 15px;
+        transition: 0.6s;
+        .dev-LogOut {
+          width: 100%;
+          height: 9%;
+          position: relative;
+          .fixed-LogOut {
+            position: fixed;
+            bottom: 11%;
+            left: 2%;
+            right: 80%;
+            top: 130%;
+            background-color: #262626;
+            border-radius: 15px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 10px 0;
+            transition: 0.6s;
+            overflow: hidden;
+            opacity: 0;
+            flex-direction: column;
+            button {
+              background-color: transparent;
+              border: none;
+              color: #fff;
+              font-family: sans-serif;
+              font-size: 14px;
+              text-align: start;
+              padding: 0 15px;
+              cursor: pointer;
+              width: 90%;
+              height: 15%;
+              transition: 0.3s;
+              border-radius: 10px;
+            }
+            & button:hover {
+              background-color: #3c3c3c;
+              transition: 0.3s;
+            }
+          }
+          li {
+            width: 100%;
+            height: 100%;
+          }
+        }
+        li {
+          width: 100%;
+          height: 9%;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          flex-direction: row;
+          padding-left: 15px;
+          button {
+            background-color: transparent;
+            color: var(--light);
+            border: none;
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+          }
+          a {
+            font-family: var(--rulles);
+            font-size: 18px;
+            font-weight: 100;
+            width: 100%;
+            overflow: hidden;
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 20px;
+            border-radius: 10px;
+            padding: 0 10px;
+          }
+          & a:hover {
+            background-color: #1a1a1a;
+          }
+        }
+        .Pimage {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          overflow: hidden;
+          padding-right: 5px;
+          img {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+.dev-posts {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -120%;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000af;
+  transition: 0.6s;
+  .close-posts {
+    z-index: 100;
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+  }
+}
+.parent-posts {
+  width: 100%;
+  height: 100vh;
+  .container-posts {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .card-posts {
+      background-color: #262626;
+      width: 400px;
+      height: 70%;
+      border-radius: 15px;
+      .text-posts {
+        border-bottom: 1px solid #ffffff44;
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h3 {
+          font-family: sans-serif;
+          font-size: 15px;
+          font-weight: 500;
+        }
+      }
+      form {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        input[type="file"] {
+          display: none;
+        }
+        label {
+          background-color: #0095f6;
+          color: #fff;
+          padding: 7px 15px;
+          border-radius: 8px;
+          cursor: pointer;
+          font-size: 15px;
+          font-family: sans-serif;
+          transition: 0.3s;
+        }
+        & label:hover {
+          background-color: #1877f2;
+          transition: 0.3s;
+        }
+        h2 {
+          font-weight: 400;
+          font-family: sans-serif;
+          font-size: 19px;
+        }
+        input {
+          background-color: transparent;
+          border: 1px solid #ffffff44;
+          width: 80%;
+          height: 8%;
+          padding: 0 15px;
+          border-radius: 10px;
+          outline: none;
+          color: #fff;
+        }
+        p {
+          font-size: 85px;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        button {
+          background-color: #0095f6;
+          border: none;
+          padding: 6px 20px;
+          font-family: sans-serif;
+          color: #fff;
+          cursor: pointer;
+          border-radius: 7px;
+          transition: 0.3s;
+        }
+        & button:hover {
+          background-color: #1877f2;
+          transition: 0.3s;
+        }
+      }
+    }
+  }
+}
+// Here End For Style NavBar & SharePosts
+// ------------------------------------------------------------------------------------------------------------------------------------------
+// Here Style for InfoMessage
+.parent-infomessage {
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  .container-infomessage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .menu-infomessage {
+      width: 5%;
+      z-index: 100;
+    }
+    .card-infomessage {
+      width: 95%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      .card-Priavte-Message {
+        height: 100%;
+        width: 32%;
+      }
+      .Change-Chat {
+        width: 68%;
+        height: 100%;
+      }
+    }
+  }
+}
+// Here Style for InfoMessage in Page Message
+// ------------------------------------------------------------------------------------------------------------------------------------------
+//Here For Style ViewChat's
+.parent-viewChat {
+  width: 100%;
+  height: 100vh;
+  // border: 3px solid gold;
+  .container-viewChat {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+    // border: 3px solid gold;
+    .header-profile {
+      width: 100%;
+      height: 12%;
+      padding: 36px;
+      .card-viewChat {
+        position: fixed;
+        top: 0;
+        left: 35%;
+        right: 0;
+        bottom: 88%;
+        border-bottom: 1px solid #ffffff2f;
+        .proflie-person {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+          .bg-person {
+            width: 300px;
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: row;
+            gap: 10px;
+            padding: 0 15px;
+            h3 {
+              font-family: sans-serif;
+              font-size: 15px;
+              font-weight: 200;
+            }
+            img {
+              width: 55px;
+              height: 50px;
+              border-radius: 50%;
+            }
+          }
+          .icons-person {
+            width: 300px;
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 18px;
+            padding: 0 15px;
+            a {
+              font-size: 25px;
+            }
+          }
+        }
+      }
+    }
+    .detalis-chat {
+      width: 100%;
+      height: 87.8%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      .TypeChat {
+        width: 100%;
+        height: 88%;
+        min-height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 8px;
+        overflow-y: auto;
+        .info-profiles {
+          width: 100%;
+          height: 240px;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          gap: 5px;
+          flex-direction: column;
+          z-index: 100;
+          .mall {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            flex-direction: column;
+          }
+          h3 {
+            font-family: sans-serif;
+            font-size: 18px;
+            font-weight: 100;
+          }
+          p {
+            color: #ffffff86;
+            font-family: sans-serif;
+            font-size: 15px;
+          }
+          a {
+            font-family: sans-serif;
+            padding: 8px 15px;
+            background-color: #363636;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 400;
+          }
+          & a:hover {
+            background-color: #262626;
+          }
+          img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+          }
+        }
+        p{
+          max-width: 85%; 
+          word-wrap: break-word; 
+          overflow-wrap: break-word;
+        }
+        .other {
+          width: 100%;
+          height: auto;
+          padding: 5px 0;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 10px;
+          padding: 0 5px;
+          min-height: 50px;
+          p {
+            background-color: #262626;
+            padding: 7px 20px;
+            font-family: sans-serif;
+            border-radius: 10px;
+          }
+          img {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+          }
+        }
+        .owner {
+          width: 100%;
+          height: auto;
+          padding: 5px 0;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          gap: 10px;
+          padding: 0 10px;
+          min-height: 50px;
+          p {
+            background-color: #3797f0;
+            padding: 7px 20px;
+            font-family: sans-serif;
+            border-radius: 10px;
+          }
+          img {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: none;
+
+          }
+        }
+      }
+      .TypeChat::-webkit-scrollbar {
+        width: 7px;
+      }
+      .TypeChat::-webkit-scrollbar-track {
+        background-color: #2c2c2c;
+      }
+      .TypeChat::-webkit-scrollbar-thumb {
+        background-color: #9f9f9f;
+        transition: 0.2s;
+        border-radius: 10px;
+      }
+      .TypeChat::-webkit-scrollbar-thumb:hover {
+        background-color: #d1d1d1;
+        transition: 0.2s;
+      }
+    }
+    form {
+      position: fixed;
+      bottom: 0%;
+      right: 0;
+      left: 35%;
+      height: 11%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      background-color: #000000;
+      gap: 7px;
+      input {
+        width: 80%;
+        height: 60%;
+        background-color: transparent;
+        outline: none;
+        border: 1px solid #ffffff80;
+        border-radius: 30px;
+        padding: 0 15px;
+        color: #fff;
+      }
+      button {
+        width: 60px;
+        height: 55%;
+        font-family: sans-serif;
+        background-color: #0095f6;
+        border: none;
+        color: #fff;
+        border-radius: 7px;
+        cursor: pointer;
+      }
+      a {
+        height: 100%;
+        font-size: 30px;
+        padding-right: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+  .detalis-chat::-webkit-scrollbar {
+    width: 7px;
+  }
+  .detalis-chat::-webkit-scrollbar-track {
+    background-color: #2c2c2c;
+  }
+  .detalis-chat::-webkit-scrollbar-thumb {
+    background-color: #9f9f9f;
+    transition: 0.2s;
+    border-radius: 10px;
+  }
+  .detalis-chat::-webkit-scrollbar-thumb:hover {
+    background-color: #d1d1d1;
+    transition: 0.2s;
+  }
+}
+//Here For End Style ViewChat's
+// ------------------------------------------------------------------------------------------------------------------------------------------
+//Here For Style News in Page Home
+.parent-news {
+  // border: 3px solid brown;
+  width: 100%;
+  height: 24vh;
+  min-height: auto;
+  .container-news {
+    width: 100%;
+    height: 100%;
+    min-height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+    .stores-news {
+      width: 90%;
+      height: 120px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      overflow-x: auto;
+      gap: 10px;
+      .card-stores {
+        width: 110px;
+        height: 100%;
+        min-width: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+        .image-stores {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          gap: 7px;
+          img {
+            width: 60px;
+            height: 55px;
+            border-radius: 50%;
+            object-fit: fill;
+            object-position: center;
+
+            transition: 0.3s;
+          }
+          & img:hover {
+            transform: rotate(360deg) scale(1.1);
+            border: 1px solid gold;
+            cursor: pointer;
+            transition: 0.6s;
+          }
+          h6 {
+            font-family: sans-serif;
+            font-weight: 200;
+          }
+        }
+      }
+    }
+    .stores-news::-webkit-scrollbar {
+      width: 7px;
+      height: 2px;
+    }
+    .stores-news::-webkit-scrollbar-track {
+      background-color: #2c2c2c;
+    }
+    .stores-news::-webkit-scrollbar-thumb {
+      background-color: #9f9f9f;
+      transition: 0.2s;
+      border-radius: 10px;
+    }
+    .stores-news::-webkit-scrollbar-thumb:hover {
+      background-color: #d1d1d1;
+      transition: 0.2s;
+    }
+  }
+}
+//Here For End Style News in Page Home
+// ------------------------------------------------------------------------------------------------------------------------------------------
+//Here For Style Friends in Page Home
+.parent-friends {
+  width: 100%;
+  height: 100vh;
+  .container-friends {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+    .owner-profile {
+      width: 100%;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .card-profile {
+        width: 90%;
+        height: 90px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        gap: 15px;
+        img {
+          width: 50px;
+          height: 45px;
+          border-radius: 50%;
+        }
+        .paragraph-profile {
+          width: 50%;
+          h2 {
+            font-family: sans-serif;
+            font-weight: 200;
+            font-size: 15px;
+          }
+          h3 {
+            font-family: sans-serif;
+            font-weight: 200;
+            font-size: 15px;
+            color: #ffffff75;
+          }
+        }
+        button {
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+          color: #039aff;
+          transition: 0.2s;
+          font-family: sans-serif;
+        }
+        & button:hover {
+          color: #fff;
+          transition: 0.2s;
+        }
+      }
+    }
+    .Suggestions-firends {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      .Suggested-friends {
+        width: 90%;
+        height: 15%;
+        display: flex;
+        padding-right: 50px;
+        justify-content: space-between;
+        align-items: flex-start;
+        h1 {
+          font-size: 15px;
+          font-weight: 200;
+          font-family: sans-serif;
+        }
+        button {
+          background-color: transparent;
+          color: #fff;
+          border: none;
+          font-size: 14px;
+          font-family: sans-serif;
+          transition: 0.2s;
+          cursor: pointer;
+        }
+        & button:hover {
+          color: #ffffff9f;
+          transition: 0.2s;
+        }
+      }
+      .card-profile {
+        width: 90%;
+        height: 65px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        gap: 15px;
+        img {
+          width: 50px;
+          height: 45px;
+          border-radius: 50%;
+        }
+        .paragraph-profile {
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          h2 {
+            font-family: sans-serif;
+            font-weight: 200;
+            font-size: 15px;
+          }
+          h3 {
+            font-family: sans-serif;
+            font-weight: 200;
+            font-size: 12px;
+            color: #ffffff75;
+          }
+        }
+        button {
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+          color: #039aff;
+          transition: 0.2s;
+          font-family: sans-serif;
+        }
+        & button:hover {
+          color: #fff;
+          transition: 0.2s;
+        }
+      }
+    }
+    .footer {
+      width: 90%;
+      height: 18%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      gap: 15px;
+      flex-direction: column;
+      .texts {
+        width: 80%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+      }
+      p {
+        font-family: var(--rulles);
+        font-size: 12px;
+        color: #ffffff62;
+      }
+    }
+  }
+}
+//Here For End Style Friends in Page Home
+// ------------------------------------------------------------------------------------------------------------------------------------------
+//Here For Style Profile & Edit Profile
+.parent-profile {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row;
+  background-color: var(--black);
+  .ChangeSize-NavBar {
+    width: 18%;
+    height: auto;
+  }
+  .container-profile {
+    height: 100%;
+    width: 82%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: auto;
+    .information-profile {
+      width: 90%;
+      height: 440px;
+      border-bottom: 1px solid #ffffff4b;
+      .box-profile {
+        width: 100%;
+        height: 67%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 80px;
+        img {
+          width: 145px;
+          height: 140px;
+          border-radius: 50%;
+          object-fit: fill;
+          cursor: pointer;
+        }
+        .paragraph-profiles {
+          width: 70%;
+          height: 100%;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          flex-direction: column;
+          .edit {
+            width: 100%;
+            height: 55px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+            gap: 20px;
+            button {
+              background-color: #363636;
+              color: #fff;
+              font-family: sans-serif;
+              font-weight: 200;
+              border: none;
+              padding: 7px 20px;
+              border-radius: 7px;
+              transition: 0.3s;
+              cursor: pointer;
+            }
+            & button:hover {
+              background-color: #262626;
+              transition: 0.3s;
+            }
+            h3 {
+              font-family: sans-serif;
+              font-weight: 200;
+            }
+          }
+        }
+        .followers {
+          width: 100%;
+          height: 70px;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 35px;
+          p {
+            font-family: sans-serif;
+            color: #fff;
+            font-weight: 200;
+          }
+        }
+        .texts {
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 8px;
+          p {
+            font-family: sans-serif;
+            font-weight: 200;
+            width: 70%;
+          }
+        }
+      }
+      .stores-profile {
+        width: 100%;
+        height: 33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
+        .card-stores {
+          width: 130px;
+          height: 100%;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-direction: column;
+          img {
+            border: 3px solid #343a40;
+            width: 85px;
+            height: 85px;
+            border-radius: 50%;
+            object-fit: fill;
+            object-position: top;
+            cursor: pointer;
+          }
+          p {
+            font-family: sans-serif;
+            font-weight: 200;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .posts-profile {
+      width: 90%;
+      height: auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 5px;
+      padding: 10px 0;
+      .card-posts {
+        border: 1px solid #ffffff27;
+        width: 320px;
+        height: 310px;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+    }
+  }
+}
+.parent-EditProfile {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--black);
+  .container-EditProfile {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .card-EditProfile {
+      width: 400px;
+      height: 70%;
+      background-color: #262626;
+      border-radius: 15px;
+      .text-EditProfile {
+        border-bottom: 1px solid #ffffff44;
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h3 {
+          font-family: sans-serif;
+          font-size: 15px;
+          font-weight: 500;
+        }
+      }
+      form {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        p {
+          font-family: sans-serif;
+          width: 80%;
+          font-size: 13px;
+          color: #ffffffb2;
+          text-align: center;
+          padding-bottom: 15px;
+          line-height: 18px;
+        }
+        span {
+          font-size: 18px;
+        }
+        input {
+          background-color: transparent;
+          border: 1px solid #ffffff44;
+          width: 80%;
+          height: 8%;
+          padding: 0 15px;
+          border-radius: 10px;
+          outline: none;
+          color: #fff;
+        }
+        button {
+          background-color: #0095f6;
+          border: none;
+          padding: 6px 20px;
+          font-family: sans-serif;
+          color: #fff;
+          cursor: pointer;
+          border-radius: 7px;
+          transition: 0.3s;
+        }
+        & button:hover {
+          background-color: #1877f2;
+          transition: 0.3s;
+        }
+        input[type="file"] {
+          display: none;
+        }
+        label {
+          background-color: #0095f6;
+          color: #fff;
+          padding: 7px 15px;
+          border-radius: 8px;
+          cursor: pointer;
+          font-size: 15px;
+          font-family: sans-serif;
+          transition: 0.3s;
+        }
+        & label:hover {
+          background-color: #1877f2;
+          transition: 0.3s;
+        }
+        h2 {
+          font-weight: 400;
+          font-family: sans-serif;
+          font-size: 19px;
+        }
+      }
+    }
+  }
+}
+//Here For End Style Profile & Edit Profile
+// ------------------------------------------------------------------------------------------------------------------------------------------
+//Here For Style Login & Register
+.parent-login {
+  width: 100%;
+  height: 100vh;
+  .container-login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    .cards-login {
+      width: 350px;
+      height: 70%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      .card-login {
+        border: 1px solid #24242441;
+        width: 350px;
+        height: 90%;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        h3 {
+          font-family: var(--Sakhrafa);
+          color: #262626;
+          font-size: 40px;
+        }
+        form {
+          display: flex;
+          flex-direction: column;
+          width: 80%;
+          height: auto;
+          gap: 10px;
+          .textError {
+            width: 100%;
+            height: auto;
+            p {
+              font-size: 14px;
+              color: #ee2d3e;
+              text-align: center;
+              font-family: sans-serif;
+              width: 100%;
+            }
+          }
+          input {
+            width: 100%;
+            height: 35px;
+            border: 1px solid #2424244f;
+            padding: 0 15px;
+            font-family: sans-serif;
+            border-radius: 5px;
+            outline-color: #1795f6;
+          }
+          button {
+            width: 100%;
+            height: 40px;
+            background-color: #1877f2;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: sans-serif;
+            font-size: 17px;
+            transition: 0.2s;
+          }
+          & button:hover {
+            background-color: #1195ec;
+            transition: 0.2s;
+          }
+        }
+        fieldset {
+          width: 100%;
+          border: none;
+          border-top: 1px solid #24242441;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          height: 20%;
+          legend {
+            text-align: center;
+            padding: 0 15px;
+          }
+          a {
+            color: #00376b;
+          }
+        }
+      }
+      .card-login:nth-child(2) {
+        height: 13%;
+        a {
+          color: #0095f6;
+          font-family: sans-serif;
+          font-weight: 200;
+        }
+      }
+    }
+    .card-images {
+      height: 95%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+        cursor: pointer;
+      }
+      .two-image {
+        position: absolute;
+      }
+    }
+  }
+}
+.parent-register {
+  width: 100%;
+  height: 100vh;
+  .container-register {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    .cards-register {
+      width: 350px;
+      height: 95%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      .card-register {
+        border: 1px solid #24242441;
+        width: 330px;
+        height: 93%;
+        padding-top: 15px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        p {
+          color: #242424a8;
+          font-family: sans-serif;
+          width: 80%;
+          text-align: center;
+          line-height: 20px;
+          font-weight: 500;
+        }
+        h3 {
+          font-family: var(--Sakhrafa);
+          color: #262626;
+          font-size: 40px;
+        }
+        fieldset {
+          width: 100%;
+          border: none;
+          border-top: 1px solid #24242441;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          height: 75%;
+          legend {
+            text-align: center;
+            padding: 0 15px;
+          }
+          a {
+            color: #00376b;
+          }
+          form {
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+            height: auto;
+            gap: 10px;
+            .textError {
+              width: 100%;
+              height: auto;
+              p {
+                font-size: 11px;
+                color: #ee2d3e;
+                text-align: center;
+                width: 100%;
+              }
+            }
+            input {
+              width: 100%;
+              height: 35px;
+              outline-color: #1795f6;
+              border: 1px solid #2424244f;
+              padding: 0 15px;
+              font-family: sans-serif;
+              border-radius: 5px;
+            }
+            button {
+              width: 100%;
+              height: 40px;
+              background-color: #1877f2;
+              color: #fff;
+              border: none;
+              border-radius: 5px;
+              cursor: pointer;
+              font-family: sans-serif;
+              font-size: 17px;
+              transition: 0.2s;
+            }
+            & button:hover {
+              background-color: #1195ec;
+              transition: 0.2s;
+            }
+          }
+        }
+      }
+      .card-register:nth-child(2) {
+        height: 11%;
+        padding: 0;
+        a {
+          color: #242424;
+          font-family: sans-serif;
+          font-weight: 200;
+          font-size: 14px;
+          span {
+            color: #0095f6;
+          }
+        }
+      }
+    }
+    .card-images {
+      height: 95%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+        cursor: pointer;
+      }
+      .two-image {
+        position: absolute;
+      }
+    }
+  }
+}
+//Here For End Style Login & Register
+// ------------------------------------------------------------------------------------------------------------------------------------------
+// Here for rulles Event for change style
+.ChangeWidth {
+  width: 100% !important;
+  border-right: 0.5px solid #ffffff3a;
+  transition: 0.6s;
+  overflow: hidden;
+  padding: 0 10px !important;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: flex !important;
+}
+.border {
+  border: none !important;
+}
+.cardpadding {
+  padding: 0 !important;
+  width: 30% !important;
+  transition: 0.6s !important;
+}
+.pad {
+  padding-left: 5px;
+}
+.border-allarm {
+  border: 1px solid #ee2d3e !important;
+}
+.border-true {
+  border: 1px solid #2424244f !important;
+}
+.top-logOut {
+  top: 30% !important;
+  transition: 0.6s;
+  opacity: 1 !important;
+}
+.left-posts {
+  left: 0 !important;
+  transition: 0.6s;
+}
+.RemoveBtn {
+  display: none !important;
+}
+.ShowBtn {
+  display: flex !important;
+  width: 80% !important;
+  height: 80% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// Here End for rulles Event for change style
+
+// Here for media
+@media (max-width: 1500px) {
+  .parent-home {
+    height: auto;
+    .container-home {
+      height: auto;
+    }
+  }
+  .parent-profile {
+    height: auto;
+  }
+}

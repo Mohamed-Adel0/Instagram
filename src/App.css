@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Playball&family=Sevillana&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --Sakhrafa: "Playball", cursive;
+  --rulles: "Lora", serif;
+  --bg: "#1F242D";
+  --light: #f8f9fa;
+}
+h1 {
+  font-weight: 200;
+  background-color: var(--bg);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+  color: var(--light);
+  text-decoration: none;
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+  width: 9px;
+  height: 3px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #2c2c2c;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #9f9f9f;
+  transition: 0.2s;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #d1d1d1;
+  transition: 0.2s;
+}
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+.light-mode {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+}
+.light-mode .fixed-LogOut {
+  box-shadow: #00000065 1px 1px 16px 3px;
+  background-color: #ffffff !important;
+}
+.light-mode .menu-logOut {
+  box-shadow: #00000065 1px 1px 16px 3px;
+  background-color: #ffffff67 !important;
+  border-end-start-radius: 10px;
+  border-end-end-radius: 10px;
+}
+.light-mode .parent-posts {
+  background-color: #ffffff67 !important;
+}
+.light-mode .card-EditProfile {
+  background-color: #ffffff67 !important;
+  box-shadow: #00000065 1px 1px 16px 3px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.light-mode .container-viewChat form button,
+.light-mode .container-posts form button,
+.light-mode .Edit-Profile button,
+.light-mode .container-viewChat .other p,
+.light-mode .close-posts,
+.light-mode .container-viewChat .owner p {
+  color: #ffffff !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.light-mode .card-infoo,
+.light-mode .card-viewChat,
+.light-mode .information-profile,
+.card-posts {
+  border-bottom: 1px solid #413f3f46 !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.light-mode .card-messages,
+.light-mode .bg-images {
+  border: 1px solid #413f3f46 !important;
 }
-
-.App-link {
-  color: #61dafb;
+.light-mode .container-viewChat form input,
+.light-mode .Search-bar input,
+.light-mode .Edit-Profile input,
+.light-mode .container-posts form input {
+  border: 1px solid #413f3f46 !important;
+  color: #000000 !important;
+  background-color: transparent !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.light-mode .container-Menu,
+.light-mode .container-navbar {
+  border-right: 0.5px solid #413f3f46 !important;
+}
+.light-mode .Viewfile,
+.light-mode .edit button {
+  background-color: #efefef !important;
+}
+.light-mode h1,
+.light-mode h2,
+.light-mode h3,
+.light-mode h4,
+.light-mode h5,
+.light-mode h6,
+.light-mode a,
+.light-mode p,
+.light-mode button {
+  color: #000000 !important;
+}
+.dark-mode {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+.dark-mode h1,
+.dark-mode p,
+.dark-mode button {
+  color: #ffffff !important;
+}
+/* Here for Hover Switch Dark Mode */
+.light-mode .container-navbar li a:hover {
+  background-color: #f2f2f2 !important;
+}
+.light-mode .container-Menu li a:hover {
+  background-color: #f2f2f2 !important;
+}
+.light-mode .fixed-LogOut button:hover {
+  background-color: #f2f2f2 !important;
+}
+/* Bokra 3awz ab2a ashof modo3 el person da 3shan msh 3awz ya3'er el hover */
+.light-mode .card-messages a:hover {
+  background-color: #f2f2f2 !important;
 }

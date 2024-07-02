@@ -1,0 +1,746 @@
+// Here for Responsive Website 
+:root {
+  --pink: #e83e8c;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --black: #000000;
+  --Sakhrafa: "Playball", cursive;
+  --rulles: "Lora", serif;
+}
+@media (max-width: 1024px) {
+  .parent-home {
+    height: auto !important;
+    .container-home {
+      gap: 70px;
+      .friends {
+        display: none;
+      }
+      .menu {
+        // border: 3px solid brown !important;
+        width: 10%;
+      }
+      .news {
+        width: 70%;
+      }
+    }
+  }
+  .parent-infomessage {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .container-infomessage {
+      width: 90%;
+      .menu-infomessage {
+        width: 0%;
+        height: 100%;
+      }
+      .card-infomessage {
+        width: 100%;
+      }
+      .card-Priavte-Message {
+        width: 100% !important;
+      }
+      .Change-Chat {
+        width: 0% !important;
+      }
+    }
+  }
+  .parent-viewChat {
+    background-color: #000000;
+    .container-viewChat {
+      .header-profile {
+        .card-viewChat {
+          left: 0;
+          right: 0;
+        }
+      }
+      form {
+        left: 0;
+        right: 0;
+      }
+    }
+  }
+  .parent-profile {
+    .ChangeSize-NavBar {
+      width: 9%;
+    }
+    .container-profile {
+      width: 95%;
+      .information-profile {
+        width: 95%;
+        // border: 3px solid gold;
+      }
+      .posts-profile {
+        width: 95%;
+        .card-posts {
+          width: 287px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .parent-home {
+    .container-home {
+      .news {
+        // width: 100%;
+        .posts-news {
+          .card-posts {
+            width: 90% !important;
+          }
+        }
+      }
+    }
+  }
+  .parent-profile {
+    .ChangeSize-NavBar {
+      width: 9%;
+    }
+    .container-profile {
+      width: 88%;
+      // border: 3px solid gold;
+      .information-profile {
+        // container Info Profile
+        width: 95%;
+        .box-profile {
+          .paragraph-profiles {
+            // text paragraph
+            .edit {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              h3 {
+                font-size: 12px;
+              }
+              button {
+                width: auto;
+                font-size: 12px;
+                padding: 0;
+                padding: 8px 10px;
+              }
+            }
+          }
+        }
+        .stores-profile {
+          //Stores
+          .card-stores {
+            img {
+              width: 65px;
+              height: 65px;
+            }
+          }
+        }
+      }
+      .posts-profile {
+        width: 95%;
+        .card-posts {
+          width: 205px;
+          img {
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+  .fixed-LogOut {
+    width: 200px;
+  }
+}
+@media (max-width: 425px) {
+  .parent-home {
+    .container-home {
+      .menu {
+        display: none;
+      }
+      .news {
+        width: 100%;
+        min-height: 100vh;
+        .navbar-smaillSize {
+          width: 100%;
+          height: 45px !important;
+        }
+        .posts-news {
+          height: 80% !important;
+          padding: 15px 0 !important;
+          .card-posts {
+            gap: 14px !important;
+            width: 90% !important;
+            .bg-images {
+              img {
+                width: 100%;
+                height: 100%;
+                object-fit: fill !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .parent-infomessage {
+    .container-infomessage {
+      width: 100%;
+      .menu-infomessage {
+        display: none;
+      }
+    }
+  }
+  .parent-viewChat {
+    background-color: #000000;
+    .container-viewChat {
+      .header-profile {
+        .card-viewChat {
+          left: 0%;
+          right: 0%;
+          z-index: 999;
+          background-color: transparent !important;
+          .proflie-person {
+            flex-direction: row;
+            flex-wrap: nowrap !important;
+            .bg-person {
+              width: auto !important;
+              img {
+                width: 40px !important;
+                height: 40px !important;
+              }
+              h3 {
+                font-size: 13px !important;
+              }
+            }
+            .icons-person {
+              width: auto;
+              a {
+                font-size: 18px !important;
+              }
+            }
+          }
+        }
+      }
+      .TypeChat {
+        p {
+          font-size: 11px;
+          width: auto;
+          height: auto;
+          padding-left: 10px !important;
+        }
+      }
+      form {
+        left: 0%;
+        right: 0%;
+        padding: 0 10px;
+        z-index: 999;
+      }
+    }
+  }
+  .parent-news {
+    .container-news {
+      justify-content: center !important;
+      align-items: center !important;
+      gap: 0px !important;
+      .nav-header {
+        width: 100% !important;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        padding-top: 10px;
+        h3 {
+          font-family: var(--Sakhrafa);
+          font-weight: 100;
+          font-size: 22px;
+        }
+        .icons-heade {
+          width: auto;
+          height: auto;
+          display: flex;
+          gap: 15px;
+          a {
+            font-size: 18px;
+          }
+        }
+      }
+      .stores-news {
+        height: 70% !important;
+        .card-stores {
+          min-width: 70px !important;
+        }
+        img {
+          width: 50px !important;
+          height: 45px !important;
+        }
+        h6 {
+          font-size: 10px !important;
+        }
+      }
+    }
+    .stores-news::-webkit-scrollbar {
+      width: 7px;
+      height: 1px !important;
+    }
+    .stores-news::-webkit-scrollbar-track {
+      background-color: #2c2c2c;
+    }
+    .stores-news::-webkit-scrollbar-thumb {
+      background-color: #9f9f9f;
+      transition: 0.2s;
+      border-radius: 10px;
+    }
+    .stores-news::-webkit-scrollbar-thumb:hover {
+      background-color: #d1d1d1;
+      transition: 0.2s;
+    }
+  }
+  .parent-profile {
+    .ChangeSize-NavBar {
+      display: none;
+    }
+  }
+  .parent-profile {
+    .ChangeSize-NavBar {
+      width: 9%;
+    }
+    .container-profile {
+      width: 100%;
+      min-height: 100vh;
+      .navbar-smaillSize {
+        width: 100% !important;
+        height: 45px !important;
+      }
+      .information-profile {
+        // container Info Profile
+        width: 100%;
+        .box-profile {
+          gap: 10px;
+          img {
+            width: 90px;
+            height: 90px;
+          }
+          .paragraph-profiles {
+            // text paragraph
+            width: 75%;
+            .edit {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 5px;
+              flex-direction: column !important;
+              height: auto !important;
+              padding-top: 15px;
+              .icons-profiless {
+                width: auto;
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                align-items: center;
+                .menu-logOut {
+                  position: fixed;
+                  top: -30%;
+                  left: 0;
+                  right: 0;
+                  height: 18%;
+                  background-color: #000000a4;
+                  display: flex;
+                  justify-content: flex-end;
+                  align-items: center;
+                  gap: 15px;
+                  flex-direction: column;
+                  padding-bottom: 15px;
+                  transition: 0.6s;
+                  border-bottom: 1px solid #ffffff18;
+                  button {
+                    font-size: 14px;
+                    width: 50%;
+                    height: 25px;
+                    transition: 0.2s;
+                  }
+                  & button:hover {
+                    background-color: #1a1a1a;
+                    transition: 0.2s;
+                  }
+                  // bottom: 80%;
+                }
+              }
+              h3 {
+                font-size: 14px !important;
+              }
+              button {
+                width: auto;
+                font-size: 8px;
+                padding: 5px 10px;
+              }
+            }
+            .followers {
+              p {
+                font-size: 12px;
+              }
+            }
+          }
+          .texts {
+            width: 95%;
+            text-align: start;
+            p {
+              font-size: 13px;
+              line-height: 17px;
+            }
+          }
+        }
+        .stores-profile {
+          //Stores
+          .card-stores {
+            img {
+              width: 65px;
+              height: 65px;
+            }
+          }
+        }
+      }
+      .posts-profile {
+        width: 95%;
+        .card-posts {
+          width: 205px;
+          img {
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+  .parent-smailSize {
+    width: 100%;
+    height: 45px !important;
+    .container-smailSize {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 91%;
+      bottom: -0% !important;
+      z-index: 999;
+      .card-smailSize {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        ul {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          flex-direction: row;
+          background-color: #000000;
+          padding: 0 15px;
+          li {
+            padding-top: 5px;
+            width: 45px;
+            height: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a {
+              font-size: 24px;
+            }
+            .Pimage {
+              width: 35px !important;
+              height: 35px !important;
+              border-radius: 50%;
+              overflow: hidden;
+              img {
+                width: 100%;
+                height: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .parent-login {
+    .card-images {
+      display: none !important;
+    }
+    .cards-login {
+      width: 90% !important;
+      height: 85% !important;
+      .card-login {
+        width: 100% !important;
+      }
+    }
+  }
+  .parent-register {
+    .card-images {
+      display: none !important;
+    }
+    .cards-register {
+      width: 90% !important;
+      // height: 85% !important;
+      height: 100% !important;
+      .card-register {
+        width: 100% !important;
+        .textError {
+          p {
+            font-size: 9px !important;
+          }
+        }
+        .fieldset {
+          height: 80% !important;
+        }
+        input {
+          height: 30px !important;
+        }
+        button {
+          height: 35px !important;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 425px) {
+  // here edit for Profile only
+  .container-profile {
+    width: 100%;
+    .information-profile {
+      // container Info Profile
+      width: 100%;
+      height: auto !important;
+      display: flex !important;
+      padding: 15px 0 !important;
+      justify-content: center !important;
+      align-items: center !important;
+      .box-profile {
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 0px !important;
+        width: 95% !important;
+        height: 100% !important;
+        flex-direction: column !important;
+        img {
+          width: 110px !important;
+          height: 110px !important;
+        }
+        .paragraph-profiles {
+          // text paragraph
+          width: 100% !important;
+          height: 70% !important;
+          .edit {
+            display: flex;
+            justify-content: center !important;
+            align-items: center !important;
+            flex-wrap: wrap !important;
+            gap: 10px !important;
+            h3 {
+              font-size: 10px !important;
+            }
+            button {
+              width: auto;
+              font-size: 7px;
+              padding: 5px 10px;
+            }
+          }
+          .followers {
+            display: flex;
+            justify-content: center !important;
+            gap: 30px !important;
+            height: auto !important;
+            padding: 20px 0 !important;
+            p {
+              font-size: 11px !important;
+            }
+            gap: 0;
+          }
+        }
+        .texts {
+          gap: 10px !important;
+          height: 55% !important;
+          min-height: auto !important;
+          display: flex !important;
+          justify-content: center !important;
+          align-items: center !important;
+          p {
+            font-size: 13px;
+            width: 100% !important;
+          }
+        }
+      }
+      .stores-profile {
+        //Stores
+        height: 25% !important;
+        overflow-x: auto;
+        display: none !important;
+        .card-stores {
+          min-height: 150px !important;
+          img {
+            width: 45px !important;
+            height: 45px !important;
+          }
+        }
+      }
+    }
+    .posts-profile {
+      width: 95%;
+      justify-content: flex-start !important;
+      align-items: center !important;
+      .card-posts {
+        width: 130px !important;
+        height: 130px !important;
+        img {
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 375px) {
+  .container-profile {
+    width: 100%;
+    // border: 3px solid gold;
+    .information-profile {
+      // container Info Profile
+      width: 100%;
+      height: auto !important;
+      display: flex !important;
+      padding: 15px 0 !important;
+      justify-content: center !important;
+      align-items: center !important;
+      .box-profile {
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 0px !important;
+        width: 95% !important;
+        height: 100% !important;
+        flex-direction: column !important;
+        img {
+          width: 80px !important;
+          height: 80px !important;
+        }
+        .paragraph-profiles {
+          // text paragraph
+          width: 100% !important;
+          height: 70% !important;
+          .edit {
+            display: flex;
+            justify-content: center !important;
+            align-items: center !important;
+            flex-wrap: wrap !important;
+            gap: 10px !important;
+            h3 {
+              font-size: 10px !important;
+            }
+            button {
+              width: auto;
+              font-size: 7px;
+              padding: 5px 10px;
+            }
+          }
+          .followers {
+            display: flex;
+            justify-content: center !important;
+            gap: 30px !important;
+            height: auto !important;
+            padding: 20px 0 !important;
+            p {
+              font-size: 11px !important;
+            }
+            gap: 0;
+          }
+        }
+        .texts {
+          gap: 10px !important;
+          height: 55% !important;
+          min-height: auto !important;
+          display: flex !important;
+          justify-content: center !important;
+          align-items: center !important;
+          p {
+            font-size: 13px;
+            width: 100% !important;
+          }
+        }
+      }
+      .stores-profile {
+        //Stores
+        height: 25% !important;
+        overflow-x: auto;
+        display: none !important;
+        .card-stores {
+          min-height: 150px !important;
+          img {
+            width: 45px !important;
+            height: 45px !important;
+          }
+        }
+      }
+    }
+    .posts-profile {
+      width: 95%;
+      justify-content: flex-start !important;
+      align-items: center !important;
+      .card-posts {
+        width: 110px !important;
+        height: 110px !important;
+        img {
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+  .container-profile {
+    width: 100%;
+    .posts-profile {
+      width: 95%;
+      justify-content: flex-start !important;
+      align-items: center !important;
+      .card-posts {
+        width: 95px !important;
+        height: 95px !important;
+        img {
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 311px) {
+  .container-profile {
+    width: 100%;
+    .posts-profile {
+      width: 95%;
+      justify-content: flex-start !important;
+      align-items: center !important;
+      .card-posts {
+        width: 90px !important;
+        height: 95px !important;
+        img {
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+// here rules for change Style
+.back-logOuts {
+  top: 0 !important;
+}
+.hide-btn {
+  display: none;
+}
+.show-btn {
+  display: flex;
+}
+.hide-profile{
+  display: none;
+}
+.show-profile{
+  display: flex;
+}
+// kda ana 3aml min-height: 100vh; 3alla posts-profile we news
+
+//kda bokra hb2a a7ot el Toaster 3shan 5als msh h3ml 7aga fel Project da tany 

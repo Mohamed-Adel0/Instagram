@@ -1,0 +1,60 @@
+.parent {
+  width: 100%;
+  height: 100vh;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card {
+  min-width: 68%;
+  width: 400px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.icon {
+  font-size: 100px;
+  background-color: transparent;
+  border: none;
+  font-weight: 100;
+  color: #fff;
+}
+.card h3 {
+  font-family: sans-serif;
+  font-weight: 300;
+}
+.card p {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  color: #ffffff96;
+}
+.card .Send {
+  width: 130px;
+  height: 30px;
+  font-size: 14px;
+  background-color: #0095f6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.card .Send:hover {
+  background-color: #1877f2;
+  transition: 0.1s;
+}
+
+/* Here for Hover */
+.person:hover {
+  background-color: #121212;
+  transition: 0.3s;
+}

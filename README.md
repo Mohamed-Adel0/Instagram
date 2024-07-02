@@ -1,4 +1,4 @@
-1 Step - You can't go to any other route before you actually sign up for a site.
+1 Step - You can't go to any other route before you actually sign up for a site.    
 2 Steps - You must follow the rules and register to be able to log in because the API is protected and make sure you have done confirm through the mail you registered with
 ![image](https://github.com/Mohamed-Adel0/Instagram/assets/128996656/6891630c-def6-46d8-8244-d99a4993341d)
 3 Step - You must log in to go to the other page.

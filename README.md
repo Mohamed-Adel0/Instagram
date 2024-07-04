@@ -24,4 +24,4 @@ You will press create profile to create your own profile and then you can do any
   
 And in something I've been hiding to you're, the website Responsive with any size screen ah wlahy you can try it by urself if you not untrust me 😂🤣  
 Link Demo
-https://instagram97.netlify.app/
+https://chat97.netlify.app/

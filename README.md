@@ -19,6 +19,9 @@ You will press create profile to create your own profile and then you can do any
 ![image](https://github.com/Mohamed-Adel0/Instagram/assets/128996656/151e82bc-cf05-4956-b908-fefac3f05ca4)
 9 step which is the most important step, you can talk with your friend Like That
 ![image](https://github.com/Mohamed-Adel0/Instagram/assets/128996656/1e44d679-c41c-4f33-ac40-f40097645796)
+10 step You can search for your friends like that  
+![image](https://github.com/Mohamed-Adel0/Instagram/assets/128996656/f3e1efd0-c4e7-4625-b6ca-706bf58a6e58)
+  
 And in something I've been hiding to you're, the website Responsive with any size screen ah wlahy you can try it by urself if you not untrust me 😂🤣  
 Link Demo
 https://instagram97.netlify.app/
